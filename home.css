@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #90EE90; /* verde claro */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+h1 span {
+    color: #004d00; /* tom escuro de verde para "Control" */
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.emoji {
+    font-size: 28px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-container a {
+    text-decoration: none;
+    width: 100%;
+}
+
+button {
+    background-color: #1e4000; /* verde escuro */
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2a5a00;
+}
